@@ -131,10 +131,10 @@
             ]
         },        
         {
-            "tag": "noanswer",
+            "tag": "default",
             "patterns": [],
             "responses": [
-                "Sorry, can't understand you"
+                "Sorry, please try another command!"
             ],
             "context": [
                 ""
