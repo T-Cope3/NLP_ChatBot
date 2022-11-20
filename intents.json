@@ -1,0 +1,144 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting with you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Bye! Have a nice day"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "food request",
+            "patterns": [
+                "Eat",
+                "Dinner",
+                "Ate",
+                "Breakfast",
+                "Lunch",
+                "Drink",
+                "Food",
+                "Meat",
+                "Vegetables"
+            ],
+            "responses": [
+                "Would you like a food recommendation?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Chinese food request",
+            "patterns": [
+                "Chinese",
+                "Asian",
+                "Szechuan",
+                "aromatic flavor",
+                "sour",
+                "sweet",
+                "noodles",
+                "Peking Duck",
+                "Kung Pao"
+            ],
+            "responses": [
+                "Here is a Chinese recipe to try: https://www.chinahighlights.com/travelguide/chinese-food/cooking/kung-pao-chicken.html/" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Indian food request",
+            "patterns": [
+                "Indian",
+                "Asian",
+                "Biryani",
+                "Curry",
+                "Korma",
+                "Lamb Saag",
+                "Butter Chicken",
+                "Chicken Tikka Masala",
+                "Mughlai Chicken"
+            ],
+            "responses": [
+                "Here is a Indian recipe to try: https://www.tasteofhome.com/article/how-to-make-red-lentil-dal/" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Italian food request",
+            "patterns": [
+                "Italy",
+                "European",
+                "Chicken Parmesan",
+                "Italian Meatballs",
+                "Hot Chocolate",
+                "Calzone",
+                "Mushroom Risotto",
+                "Tuscan Chicken",
+                "Neapolitan Pizza"
+            ],
+            "responses": [
+                "Here is a Italian recipe to try: https://www.tasteofhome.com/recipes/pasta-fagioli-al-forno/" 
+            ],
+            "context": [
+                ""
+            ]
+        },        
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

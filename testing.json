@@ -1,0 +1,22 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Howdy",
+                "Henlo",
+                "Is anyone there?",
+                "Heyyyyyy",
+                "Hola Mi Amor",
+                "Hello my love",
+                "Good day fellow americans"
+            ],
+            "responses": [
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
