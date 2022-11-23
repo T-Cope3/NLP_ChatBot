@@ -6,4 +6,4 @@ Instructions:
 Make sure to install all dependencies in the files.
 
 Ensure all files are present and run modelCreation.py.
-THen run PyChatterMain.py and the program will function as intended.
+Then run PyChatterMain.py and the program will function as intended.
